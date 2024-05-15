@@ -8,12 +8,22 @@ import menu_close from "../../assets/menu_close.svg";
 
 function Navbar() {
   const [menu, setmenu] = useState("home");
+  const menuRef=useRef();
+
+const closeMenu=()=>{
+  menuRef.current.style.right='0'
+}
+
+
+const openMenu=()=>{
+  menuRef.current.style.right='-350'
+}
+
   return (
     <div className="navbar">
       <img src={logo} alt="" />
       <img src={menu_open} alt=""  className="nav-mob-open" />
-      <ul className="nav-menu">
-        <img src="" alt="" className="nav-mob-close" />
+      <ul ref={menuRef} className="nav-menu">
         <img src={menu_close} alt="" className="nav-mob-close" />
         <li>
           <AnchorLink className="anchor-link" href="#Home">
