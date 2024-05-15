@@ -17,18 +17,18 @@ function Navbar() {
           {menu === "home" ? <img src={underline} alt="" /> : <></>}{" "}
         </li>
         <li>
-          <AnchorLink className="anchor-link" offset={50} href="about" >
+          <AnchorLink className="anchor-link" offset={50} href="#about" >
             <p onClick={() => setmenu("about")}>About Me</p>
           </AnchorLink>
           {menu === "about" ? <img src={underline} alt="" /> : <></>}
         </li>
         <li>
-          <AnchorLink className="anchor-link"  offset={50} href="services"> <p onClick={() => setmenu("services")}>Services</p>
+          <AnchorLink className="anchor-link"  offset={50} href="#services"> <p onClick={() => setmenu("services")}>Services</p>
           </AnchorLink>
           {menu === "services" ? <img src={underline} alt="" /> : <></>}
         </li>
         <li>
-          <AnchorLink className="anchor-link" offset={50} href="portfolio"  >
+          <AnchorLink className="anchor-link" offset={50} href="#portfolio"  >
             <p onClick={() => setmenu("portfolio")}>Portfolio</p>
           </AnchorLink>
           {menu === "portfolio" ? <img src={underline} alt="" /> : <></>}
