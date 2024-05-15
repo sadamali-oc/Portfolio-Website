@@ -21,7 +21,7 @@ function About() {
               individual.
             </p>
             <p>
-              I’m excited about the opportunity to work as a software engineer
+        My passionate about the UI/UX Designs
    
             </p>
           </div>
@@ -36,12 +36,12 @@ function About() {
             </div>
 
             <div className="about-skill">
-              <p>HTML & CSS</p>
+              <p>JavaScript</p>
               <hr/>
             </div>
 
             <div className="about-skill">
-              <p>HTML & CSS</p>
+              <p>NestJs</p>
               <hr/>
             </div>
           </div>

@@ -9,7 +9,7 @@ function Footer() {
       <div className="footer-top">
         <div className="footer-top-left">
           <img src={footer_logo} alt="" />
-          <p>I am xccvjnvjk  sdndfja developer from,dvjfb enfjfe efef</p>
+          <p>Work with my own effort, looking for job opportunities</p>
         </div>
         <div className="footer-top-right">
           <div className="footer-email-input">
@@ -22,7 +22,7 @@ function Footer() {
       <hr />
       <div className=" footer-bottom">
         <p className="footer-bottom-left">
-          © 2024 Chamalka Sadamali. All rights are received
+          © 2024 Nick Kotel. All rights are received
         </p>
         <div className="footer-botton-right">
           <p>Terms of services</p>
