@@ -1,17 +1,34 @@
 import theme_pattern from "../../assets/theme_pattern.svg";
 import React from "react";
 import "./MyWork.css";
+import mywork_Data from "../../assets/mywork_data";
+import arrow_icon from '../../assets/arrow_icon.svg'
+
+
 
 function MyWork() {
-  return <div className="mywork">
-    <div className="mywork-title">
+  return (
+    <div className="mywork">
+      <div className="mywork-title">
         <h1>My latest work</h1>
-        <img src={theme_pattern} alt=""/>
+        <img src={theme_pattern} alt="" />
+      </div>
+      <div className="mywork-container">
+        {mywork_Data.map((work, index) => {
+            return <img key={index} src={work.w_img} alt=""/>
+        })}
+      </div>
+
+      <div className="mywork-showmore">
+
+        <p>
+           ShowMore 
+        </p>
+        <img src={arrow_icon} alt="\"/>
+      </div>
     </div>
-    <div className="mywork-container">
-        
-    </div>
-  </div>;
+  );
 }
 
 export default MyWork;
+{}
