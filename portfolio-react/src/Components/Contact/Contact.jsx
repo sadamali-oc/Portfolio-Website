@@ -47,7 +47,9 @@ export default function Contact() {
             </div>
             <div className="contact-detail">
               <img src={call_icon} alt="" />
-              <p>+94 24 244 2345</p>
+
+              {/* number */}
+              <p>+94 24 244 2345</p> 
             </div>
 
             <div className="contact-detail">
